@@ -7,7 +7,10 @@ All information in a system is represented as a bunch of bits.
 
 ## 1.2
 
-For a hello.c program, in order to run on a system, the individual C statements should be translated by other programs into a sequence of low-level machine-language instructions. Then the instructions are packaged into an executable object program also called executable object files. The translation from source file to object file is performed by compiler driver:
+For a hello.c program, in order to run on a system, the individual C statements should be translated by other 
+programs into a sequence of low-level machine-language instructions. Then the instructions are packaged into an 
+executable object program also called executable object files. The translation from source file to object file 
+is performed by compiler driver:
 
           _ _ _ _ _ _ _
 hello.c   | pre-      |
